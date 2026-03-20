@@ -29,13 +29,127 @@ It replaces traditional manual methods like notice boards and registers with a f
 
 ## 🛠️ Tech Stack
 
-| Technology | Usage |
-|-----------|------|
-| ☕ Java | Core programming |
-| 📚 OOP Concepts | Design & structure |
-| 📦 ArrayList | Data storage |
-| ⚠️ Exception Handling | Input validation |
+- ☕ **Java**  
+- 📚 **Object-Oriented Programming (OOP)**  
+- 📦 **ArrayList (In-memory storage)**  
+- ⚠️ **Exception Handling**  
 
 ---
 
 ## 📂 Project Structure
+
+```text
+Lost-Found-System/
+│── LostFoundSystem.java
+│── Item.java
+│── User.java
+│── Admin.java
+
+
+
+
+---
+
+## ▶️ How to Run
+
+### 💻 Using Terminal
+
+```bash
+javac LostFoundSystem.java
+java LostFoundSystem
+```
+
+### 🧑‍💻 Using IDE
+
+- Open the project in **VS Code / IntelliJ / Eclipse**
+- Run `LostFoundSystem.java`
+
+---
+
+## 🧠 System Workflow
+
+```mermaid
+flowchart TD
+    A[Start] --> B[Display Menu]
+    B --> C[User Selects Option]
+    C --> D{Choice}
+    D -->|Report Lost| E[Store Lost Item]
+    D -->|Report Found| F[Store Found Item]
+    D -->|Search| G[Find Item]
+    D -->|Match| H[Compare Items]
+    D -->|Return| I[Update Status]
+    D -->|Exit| J[End]
+```
+
+---
+
+## 📋 Sample Menu
+
+```text
+1. Report Lost Item
+2. Report Found Item
+3. View All Items
+4. Search Items
+5. Match Items
+6. Mark Item as Returned
+7. Exit
+```
+
+---
+
+## 🎯 Objectives
+
+- Automate lost & found tracking  
+- Reduce manual errors  
+- Improve recovery efficiency  
+- Demonstrate Java OOP concepts  
+
+---
+
+## 🔮 Future Enhancements
+
+- 🗄️ Database Integration (MySQL)  
+- 🖥️ GUI using JavaFX / Swing  
+- 🔔 Notification system  
+- 🔐 User authentication  
+- 📊 Admin dashboard  
+
+---
+
+## 👥 Team Members
+
+- 👤 **Godwin Laiju**  
+- 👤 **Jinto P J**  
+- 👤 **Meera Surendran**  
+- 👤 **Nandha Kishor**  
+- 👤 **Muhammed Hashim P K**  
+
+---
+
+## 🏫 Institution
+
+**Vidya Academy of Science & Technology**  
+📍 Thrissur, Kerala  
+🎓 Department of Artificial Intelligence & Machine Learning  
+
+---
+
+## 🙌 Acknowledgment
+
+We sincerely thank our project guide and faculty members for their valuable support and guidance throughout this project.
+
+---
+
+## ⭐ Support
+
+If you like this project:
+
+- 🌟 Star the repository  
+- 🍴 Fork it  
+- 📢 Share with others  
+
+---
+
+<p align="center">
+  Made with ❤️ using Java
+</p>
