@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>A simple and efficient Java-based console application to manage lost and found items on campus.</b><br>
-  Built using Object-Oriented Programming concepts 💻
+  Built using Java and Object-Oriented Programming concepts 💻
 </p>
 
 ---
@@ -12,6 +12,8 @@
 The **Lost and Found System** is a console-based Java application that helps students and staff easily report, search, and recover lost items within a campus.
 
 It replaces traditional manual methods like notice boards and registers with a fast, digital solution.
+
+> ⚠️ Note: This is a simple single-file Java project developed for academic purposes.
 
 ---
 
@@ -41,12 +43,7 @@ It replaces traditional manual methods like notice boards and registers with a f
 ```text
 Lost-Found-System/
 │── LostFoundSystem.java
-│── Item.java
-│── User.java
-│── Admin.java
-
-
-
+```
 
 ---
 
