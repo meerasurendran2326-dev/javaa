@@ -1,4 +1,32 @@
+<<<<<<< HEAD
 # 🌟 Lost & Found System
+=======
+# Lost & Found System (Java Mini Project)
+
+A simple Java-based console application that helps manage lost and found items.  
+This project was developed as part of **Semester 3 Mini Project**.
+
+---
+
+## 🧩 Features
+- Add, view, and manage lost/found items  
+- Admin and user modes  
+- Simple text-based interface  
+
+---
+
+## ⚙️ Tech Stack
+- Java 17+
+- Object-Oriented Programming (OOP)
+- File handling
+
+---
+
+## 🚀 How to Run
+1. Clone this repository  
+   ```bash
+   git clone https://github.com/meerasurendran2326-dev/javaa.git
+>>>>>>> 2a850bb (Cleaned repo: removed unnecessary files)
 
 <p align="center">
   <b>A simple and efficient Java-based console application to manage lost and found items on campus.</b><br>
